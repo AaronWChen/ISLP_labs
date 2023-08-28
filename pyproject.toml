@@ -9,6 +9,7 @@ packages = [{include = "islp_poetry"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 ISLP = "^0.3.18"
+statsmodels = "^0.14.0"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.3.3"
