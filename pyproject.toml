@@ -1,16 +1,17 @@
 [tool.poetry]
 name = "islp-poetry"
-version = "0.2.0"
+version = "0.3.0"
 description = "Poetry venv for working through the Introduction to Statistical Learning with Pn course"
 authors = ["Aaron W Chen <awc33@cornell.edu>"]
 readme = "README.md"
 packages = [{ include = "islp_poetry" }]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "~3.10.10"
 ISLP = "^0.3.18"
 statsmodels = "^0.14.0"
 l0bnb = "^1.0.0"
+pygam = "^0.9.0"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.3.3"
