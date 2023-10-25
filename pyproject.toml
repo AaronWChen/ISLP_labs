@@ -12,7 +12,22 @@ ISLP = "^0.3.18"
 statsmodels = "^0.14.0"
 l0bnb = "^1.0.0"
 pygam = "^0.9.0"
-torch = "^2.1.0"
+torchmetrics = "^1.2.0"
+torchinfo = "^1.8.0"
+pytorch-lightning = "^2.1.0"
+torch = { version = "2.0.1", source = "torch" }
+torchaudio = { version = "2.0.2", source = "torch" }
+torchvision = { version = "0.15.2", source = "torch" }
+
+[[tool.poetry.source]]
+name = "torch"
+url = "https://download.pytorch.org/whl/cu117"
+priority = "supplemental"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.3.3"
