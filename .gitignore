@@ -2,3 +2,7 @@
 .DS_Store
 Zone.Identifier
 .tool-versions
+
+notebooks/labs/python/data/
+notebooks/labs/python/logs/
+notebooks/labs/python/lightning_logs/
